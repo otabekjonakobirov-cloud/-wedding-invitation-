@@ -1,0 +1,1 @@
+const d=new Date('2026-08-05T18:00:00').getTime();const t=document.getElementById('timer');setInterval(()=>{let x=d-Date.now();if(x<0){t.innerHTML='To\'y boshlandi!';return}let days=Math.floor(x/86400000);t.innerHTML='<div class="time-box">'+days+' kun qoldi</div>';},1000);
